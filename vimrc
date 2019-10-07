@@ -1,5 +1,5 @@
 set nu
-colorscheme evening
+colorscheme slate 
 set noswapfile
 set nobackup
 set nowritebackup
