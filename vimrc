@@ -1,5 +1,5 @@
 set nu
-colorscheme slate 
+colorscheme desert
 set noswapfile
 set nobackup
 set nowritebackup
