@@ -6,7 +6,16 @@ set nowritebackup
 set noundofile
 set guifont=Ubuntu\ Mono\ 12
 set tabstop=2 shiftwidth=2 expandtab
-set lines=25 columns=100
 set clipboard=unnamedplus
 set incsearch
 set hlsearch
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+call plug#end()
