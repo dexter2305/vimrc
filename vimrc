@@ -9,6 +9,8 @@ set tabstop=2 shiftwidth=2 expandtab
 set clipboard=unnamedplus
 set incsearch
 set hlsearch
+set foldenable
+set foldmethod=indent
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
