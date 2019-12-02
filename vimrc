@@ -1,5 +1,5 @@
 set nu
-colorscheme desert
+colorscheme evening 
 set noswapfile
 set nobackup
 set nowritebackup
