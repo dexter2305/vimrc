@@ -1,5 +1,5 @@
 set nu
-colorscheme evening 
+colorscheme torte 
 set noswapfile
 set nobackup
 set nowritebackup
@@ -23,7 +23,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
 let g:airline_theme='badwolf'
+colorscheme dracula 
