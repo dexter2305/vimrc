@@ -23,9 +23,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-Plug 'tomasiser/vim-code-dark'
+Plug 'rakr/vim-one'
 
 call plug#end()
 
-let g:airline_theme= 'codedark'
-colorscheme codedark
+let g:airline_theme='one'
+colorscheme one 
