@@ -4,7 +4,7 @@ set noswapfile
 set nobackup
 set nowritebackup
 set noundofile
-set guifont=Ubuntu\ Mono\ 12
+set guifont=Ubuntu\ Mono\ 14
 set tabstop=2 shiftwidth=2 expandtab
 set clipboard=unnamedplus
 set incsearch
@@ -23,9 +23,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tomasiser/vim-code-dark'
 
 call plug#end()
 
-let g:airline_theme='badwolf'
-colorscheme dracula 
+let g:airline_theme= 'codedark'
+colorscheme codedark
