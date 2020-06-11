@@ -24,8 +24,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'rakr/vim-one'
-
+Plug 'tomasr/molokai'
 call plug#end()
 
 let g:airline_theme='one'
-colorscheme one 
+colorscheme molokai 
