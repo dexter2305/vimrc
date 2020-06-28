@@ -37,4 +37,4 @@ Plug 'tomasr/molokai'
 call plug#end()
 
 let g:airline_theme='one'
-colorscheme gruvbox
+colorscheme one
