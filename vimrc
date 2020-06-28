@@ -2,6 +2,7 @@ syntax on
 
 set noerrorbells
 set nu
+set cursorline
 colorscheme torte 
 set noswapfile
 set nobackup
@@ -25,12 +26,13 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'rakr/vim-one'
+Plug 'morhetz/gruvbox'
+Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'tomasr/molokai'
 call plug#end()
 
