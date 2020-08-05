@@ -3,7 +3,6 @@ syntax on
 set noerrorbells
 set nu
 set cursorline
-colorscheme torte 
 set noswapfile
 set nobackup
 set nowritebackup
@@ -17,7 +16,13 @@ set incsearch
 set hlsearch
 set foldenable
 set foldmethod=indent
+
+set lines=28
+set columns=100
 set colorcolumn=80
+
+set splitbelow
+set splitright
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -27,14 +32,14 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
-Plug 'morhetz/gruvbox'
-Plug 'bluz71/vim-nightfly-guicolors'
-Plug 'tomasr/molokai'
+
 call plug#end()
 
-let g:airline_theme='one'
 colorscheme one
+
+" key mappings
+" NERDTree
+nmap <C-o> :NERDTree<CR>
