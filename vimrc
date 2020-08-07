@@ -34,11 +34,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
-Plug 'rakr/vim-one'
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
-colorscheme one
+colorscheme onedark
 
 " key mappings
 " NERDTree
